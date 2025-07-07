@@ -43,13 +43,13 @@ namespace Inheritance
         static void Main(string[] args)
         {
             // Öğrenci nesnesi
-            Console.WriteLine("-------------Öğrenci-------------"); // Yeni satır eklemek için
+            Console.WriteLine("-------------Öğrenci-------------");
             Student ogr = new Student();
             ogr.Ad = "Eren";
             ogr.Soyad = "Meral";
             ogr.StudentNumber = "123456";
             ogr.PrintStudentInfo();
-            Console.WriteLine("-------------Öğretmen-------------"); // Yeni satır eklemek için
+            Console.WriteLine("-------------Öğretmen-------------");
             // Öğretmen nesnesi
             Teacher Teacher = new Teacher();
             Teacher.Ad = "Öğretmen";
