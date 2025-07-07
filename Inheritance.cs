@@ -5,12 +5,12 @@ namespace Inheritance
     // Base sınıf
     public class BaseKisi
     {
-        public string Ad { get; set; }
-        public string Soyad { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
 
         public void PrintNameSurname()
         {
-            Console.WriteLine($"Ad: {Ad}, Soyad: {Soyad}");
+            Console.WriteLine($"Ad: {Name}, Soyad: {Surname}");
         }
     }
 
@@ -45,15 +45,15 @@ namespace Inheritance
             // Öğrenci nesnesi
             Console.WriteLine("-------------Öğrenci-------------");
             Student ogr = new Student();
-            ogr.Ad = "Eren";
-            ogr.Soyad = "Meral";
+            ogr.Name = "Eren";
+            ogr.Surname = "Meral";
             ogr.StudentNumber = "123456";
             ogr.PrintStudentInfo();
             Console.WriteLine("-------------Öğretmen-------------");
             // Öğretmen nesnesi
             Teacher Teacher = new Teacher();
-            Teacher.Ad = "Öğretmen";
-            Teacher.Soyad = "Patika+";
+            Teacher.Name = "Öğretmen";
+            Teacher.Surname = "Patika+";
             Teacher.Salary = 987654;
             Teacher.PrintTeacherInfo();
         }
